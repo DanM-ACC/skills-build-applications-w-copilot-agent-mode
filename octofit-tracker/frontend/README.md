@@ -1,4 +1,14 @@
-# React + Vite
+# OctoFit Tracker frontend
+
+Create `frontend/.env.local` from `.env.example` and define `VITE_CODESPACE_NAME` with your Codespaces name when using the public backend:
+
+```env
+VITE_CODESPACE_NAME=your-codespace-name
+```
+
+When `VITE_CODESPACE_NAME` is unset, the app safely uses `http://localhost:8000`.
+
+The app uses React Router for dashboard views and reads API collections from `/api/users/`, `/api/teams/`, `/api/activities/`, `/api/leaderboard/`, and `/api/workouts/`.
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
